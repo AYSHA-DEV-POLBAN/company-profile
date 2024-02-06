@@ -101,13 +101,15 @@
           </div><button class="navbar-toggler ml-4 z-index-1" type="button" data-toggle="collapse" data-target="#navbarStandard" aria-controls="navbarStandard" aria-expanded="true" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
         </div>
       </nav>
-      <nav class="navbar navbar-expand-lg navbar-dark bg-primary font-weight-semi-bold py-0 fs--1">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-success font-weight-semi-bold py-0 fs--1">
         <div class="container">
           <div class="collapse navbar-collapse" id="navbarStandard">
             <ul class="navbar-nav">
-              <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownHomes" href="index.html"  aria-expanded="false">Beranda</a>
+              <li class="nav-item dropdown dropdown-menu-on-hover">
+                <a class="nav-link" id="navbarDropdownHomes" href="index.html"  aria-expanded="false">Beranda</a>
               </li>
-              <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPages" href="about.html"  aria-expanded="false">Profile</a>
+              <li class="nav-item dropdown dropdown-menu-on-hover">
+                <a class="nav-link" id="navbarDropdownPages" href="about.html" aria-expanded="false">Profile</a>
               </li>
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownComponents" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Fasilitas</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownPages">
@@ -120,14 +122,15 @@
               </li>
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownUtilities" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pusat Informasi</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownUtilities">
-                  <a class="dropdown-item" href="jadwal-dokter.html">Jadwal Dokter</a>
-                  <a class="dropdown-item" href="paket-layanan.html">Informasi Paket Layanan</a>
-                  <a class="dropdown-item" href="alur-pelayanan-pengaduan.html">Informasi Alur Pelayanan dan Pengaduan</a>
-                  <a class="dropdown-item" href="ke'.html">Kerjasama Perusahaan dan Asuransi</a>
-                  <a class="dropdown-item" href="faq.html">Tanya Jawab (FAQ)</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/jadwal-dokter.html">Jadwal Dokter</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/paket-layanan.html">Informasi Paket Layanan</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/alur-layanan.html">Informasi Alur Pelayanan dan Pengaduan</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/kerjasama-perusahaan-asuransi.html">Kerjasama Perusahaan dan Asuransi</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/faq.html">Tanya Jawab (FAQ)</a>
                 </div>
               </li>
-              <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownPlugins" href="pendaftaran.html" aria-expanded="false">Pendaftaran</a>
+              <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link" id="navbarDropdownPlugins" href="pendaftaran.html" aria-expanded="false">Pendaftaran</a>
+                <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownPlugins"><a class="dropdown-item" href="plugins/accordion.html">Accordion</a><a class="dropdown-item" href="plugins/countup.html">Countup</a><a class="dropdown-item" href="plugins/fancyscroll.html">Fancyscroll</a><a class="dropdown-item" href="plugins/ytplayer.html">Ytplayer</a><a class="dropdown-item" href="plugins/flexslider.html">Flexslider</a></div> -->
               </li>
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artikel & Berita</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownDocumentation">
@@ -142,14 +145,14 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="text-primary" data-zanim-timeline='{"delay":0}' data-zanim-trigger="scroll">
+      <section class="text-success" data-zanim-timeline='{"delay":0}' data-zanim-trigger="scroll">
         <div class="bg-holder overlay overlay-white-gradient" style="background-image:url(assets/img/about/13.jpg);"></div>
         <!--/.bg-holder-->
         <div class="container">
           <div class="row align-items-center">
             <div class="col">
               <div class="overflow-hidden">
-                <h3 data-zanim-xs='{"from":{"x":-400},"to":{"x":0}}'>RS Islam Aysha</h3>
+                <h3 class="text-success" data-zanim-xs='{"from":{"x":-400},"to":{"x":0}}'>RS Islam Aysha</h3>
                 <p class="font-weight-bold mb-0" data-zanim-xs='{"delay":0.1,"from":{"x":-400},"to":{"x":0}}'>Tentang rumah sakit islam aysha</p>
               </div>
             </div>
@@ -168,49 +171,20 @@
             <div class="col-xxl-10">
               <div class="row">
                 <div class="col-lg-8 mb-4 mt-lg-0 order-lg-1">
-                  <h6 class="mb-1 text-uppercase">Tentang</h6>
-                  <h3 class="text-uppercase">Rumah Sakit Islam Aysha</h3>
+                  <h6 class="mb-1 text-uppercase text-success">Tentang</h6>
+                  <h3 class="text-uppercase text-success">Rumah Sakit Islam Aysha</h3>
                   <div class="border-dark text-left position-relative">
                     <hr class="hr-short position-absolute d-block bg-primary m-0" />
                   </div>
-                  <!-- <p class="lead mt-4">Rumah Sakit Islam Aysha adalah Rumah sakit Umum tipe C yang didirikan oleh PT. Asri Cahya Medika dibawah kepemimpinan Dr. H. R. Agus Sriyanta, M.Pd. diatas lahan ± 8.664 meter, beralamat di Perumahan Acropolis, Jl. Sukahati, Karadenan Cibinong, Bogor.</p> -->
-                  <p>Rumah Sakit Islam Aysha adalah Rumah sakit Umum tipe C yang didirikan oleh PT. Asri Cahya Medika dibawah kepemimpinan Dr. H. R. Agus Sriyanta, M.Pd. diatas lahan ± 8.664 meter, beralamat di Perumahan Acropolis, Jl. Sukahati, Karadenan Cibinong, Bogor.</p>
-                  <p>Gedung Rumah Sakit Islam Aysha saat ini terdiri dari 4 lantai dengan luas bangunan ± 6.600 meter persegi, dimana bangunan tersebut sejak peletakan batu pertama pada tanggal 20 November 2020 ini dirancang untuk dapat menampung pelayanan rawat jalan dengan lebih dari 14 poliklinik, rawat inap dengan kapasitas 118 tempat tidur dibagi dalam 4 kelas, yaitu kelas VVIP, VIP, Kelas 1, Kelas 2, Kelas 3, Ruang Operasi, Ruang bersalin, Ruang Bayi, IGD dll. Lahan parkir yang tersedia dapat menampung sampai dengan lebih dari 100 kendaraan roda 4 dan 250 kendaraan roda 2.</p>
-                  <p>Pada tanggal 01 Juli 2022 menjadi sejarah lahirnya Rumah Sakit Islam AYSHA. Pada acara Grand Opening berlangsung dihadiri kurang lebih 600 tamu undangan. Salah satunya di hadiri oleh Plt. Bupati Bogor Bapak H. Iwan Setiawan, SE. beserta tamu-tamu VIP lainya.</p>
-                  <p>Plt. Bapati Bogor, Iwan Setiawan menyambut baik dibukanya Rumah Sakit Islam Aysha ditengah upaya meningkatkan kualitas layanan kesehatan untuk masyarakat. Selanjutnya, Direktur Utama RS Islam Aysha , dr. Alfian Sutandi menerangkan Rs Islam Aysha dibangun untuk membantu masyarakat sekitar mendapatkan kemudahan akses pelayanan kesehatan, dan berdakwah melalui kesehatan. Kemudian turut serta Pemerintah Kabupaten Bogor mewujudkan  Pancakarsa  yakni Karsa Bogor Sehat.</p>
-                  <p>Rumah Sakit Islam Aysha berharap untuk menjadi sahabat masyarakat dalam mempercayakan kesehatannya. Dan memberikan pelayanan terbaik dibidang Kesehatan dengan layanan yang professional, modern, dan berbasis nilai ke-islaman.</p>
-                  <!-- <img class="mt-3" src="assets/img/illustrations/signature.png" alt="" width="170" /> -->
+
+                  <p class="text-justify">Rumah Sakit Islam Aysha adalah Rumah sakit Umum tipe C yang didirikan oleh PT. Asri Cahya Medika dibawah kepemimpinan Dr. H. R. Agus Sriyanta, M.Pd. diatas lahan ± 8.664 meter, beralamat di Perumahan Acropolis, Jl. Sukahati, Karadenan Cibinong, Bogor.</p>
+                  <p class="text-justify">Gedung Rumah Sakit Islam Aysha saat ini terdiri dari 4 lantai dengan luas bangunan ± 6.600 meter persegi, dimana bangunan tersebut sejak peletakan batu pertama pada tanggal 20 November 2020 ini dirancang untuk dapat menampung pelayanan rawat jalan dengan lebih dari 14 poliklinik, rawat inap dengan kapasitas 118 tempat tidur dibagi dalam 4 kelas, yaitu kelas VVIP, VIP, Kelas 1, Kelas 2, Kelas 3, Ruang Operasi, Ruang bersalin, Ruang Bayi, IGD dll. Lahan parkir yang tersedia dapat menampung sampai dengan lebih dari 100 kendaraan roda 4 dan 250 kendaraan roda 2.</p>
+                  <p class="text-justify">Pada tanggal 01 Juli 2022 menjadi sejarah lahirnya Rumah Sakit Islam AYSHA. Pada acara Grand Opening berlangsung dihadiri kurang lebih 600 tamu undangan. Salah satunya di hadiri oleh Plt. Bupati Bogor Bapak H. Iwan Setiawan, SE. beserta tamu-tamu VIP lainya.</p>
+                  <p class="text-justify">Plt. Bapati Bogor, Iwan Setiawan menyambut baik dibukanya Rumah Sakit Islam Aysha ditengah upaya meningkatkan kualitas layanan kesehatan untuk masyarakat. Selanjutnya, Direktur Utama RS Islam Aysha , dr. Alfian Sutandi menerangkan Rs Islam Aysha dibangun untuk membantu masyarakat sekitar mendapatkan kemudahan akses pelayanan kesehatan, dan berdakwah melalui kesehatan. Kemudian turut serta Pemerintah Kabupaten Bogor mewujudkan  Pancakarsa  yakni Karsa Bogor Sehat.</p>
+                  <p class="text-justify">Rumah Sakit Islam Aysha berharap untuk menjadi sahabat masyarakat dalam mempercayakan kesehatannya. Dan memberikan pelayanan terbaik dibidang Kesehatan dengan layanan yang professional, modern, dan berbasis nilai ke-islaman.</p>
+
                 </div>
-                <!--.col-lg-8.mb-4.mt-lg-0.order-lg-1h6.mb-1.text-uppercase What we do
-h3.text-uppercase We Have 25 Years Experience
-.border-dark.text-left.position-relative
-  hr.hr-short.position-absolute.d-block.bg-primary.m-0
-p.mt-4 We offer extensive medical procedures to outbound and inbound patients what it is and we are very proud of achievement of our stpatients for recovery Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea, eaque. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi sit, veniam? Aut consectetur dicta in labore officiis recusandae similique velit.
-.ui.styled.fluid.accordion.border-0.mt-4(data-options!={exclusive: true})
-  .title.pl-0.bg-primary.text-white.active
-    i.dropdown.icon
-    | Our Mission
-  .active.content.pl-0
-    .media
-      img(src=`${CWD}assets/img/about/2.png`, width=180)
-      .media-body.ml-4
-        p Our Clinic has grown to provide a world class facility for the treatment of tooth loss, dental cosmetics and bore advanced restorative dentistry. We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience.
-  .title.pl-0.bg-primary.text-white
-    i.dropdown.icon
-    | Our Vision
-  .content.pl-0
-    .media
-      img(src=`${CWD}assets/img/about/7.jpeg`, width=180)
-      .media-body.ml-2
-        p Our Clinic has grown to provide a world class facility for the treatment of tooth loss, dental cosmetics and bore advanced restorative dentistry. We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience.
-  .title.pl-0.bg-primary.text-white
-    i.dropdown.icon
-    | Our Strategies
-  .content.pl-0
-    .media
-      img(src=`${CWD}assets/img/blog/12.jpg` ,width=180)
-      .media-body.ml-2
-        p Our Clinic has grown to provide a world class facility for the treatment of tooth loss, dental cosmetics and bore advanced restorative dentistry. We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience.-->
+                
                 <div class="col"><img class="img-fluid rounded" src="assets/img/about/9.jpg" alt="" /></div>
               </div>
             </div>
@@ -222,36 +196,32 @@ p.mt-4 We offer extensive medical procedures to outbound and inbound patients wh
 
       <section>
         <div class="container">
-          <!-- <div class="row justify-content-center"> -->
-            <!-- <div class="col-xxl-10">
-              <div class="row"> -->
-                <ul class="nav nav-pills" id="pill-myTab" role="tablist">
-                  <li class="nav-item"><a class="nav-link active" id="pill-home-tab" data-toggle="tab" href="#pill-tab-home" role="tab" aria-controls="pill-tab-home" aria-selected="true">Visi</a></li>
-                  <li class="nav-item"><a class="nav-link" id="pill-profile-tab" data-toggle="tab" href="#pill-tab-profile" role="tab" aria-controls="pill-tab-profile" aria-selected="false">Misi</a></li>
-                  <!-- <li class="nav-item"><a class="nav-link" id="pill-contact-tab" data-toggle="tab" href="#pill-tab-contact" role="tab" aria-controls="pill-tab-contact" aria-selected="false">Contact</a></li> -->
-                </ul>
-                <div class="tab-content border p-3 mt-3" id="pill-myTabContent">
-                  <div class="tab-pane fade show active" id="pill-tab-home" role="tabpanel" aria-labelledby="home-tab">Menjadikan rumah sakit pilihan, mandiri, berkarakter, dan islami</div>
-                  <div class="tab-pane fade" id="pill-tab-profile" role="tabpanel" aria-labelledby="profile-tab">
-                    Misi Umum: <br>
-                    Mengembangkan dan membangun sistem RS Islam Aysha <br>
-                    Membangun gedung yang representatif sesuai dengan standar rumah sakit yang baik <br>
-                    Membangun komitmen SDM di seluruh lini pelayanan yang mencakup pengembangan keterampilan, ilmu pengetahuan, dan perilaku <br>
-                    Meningkatkan kinerja pembelajaran sesuai target usaha RS melalui kinerja keuangan, kinerja pelanggan, kinerja infrastruktur, dan kinerja pengembangan <br>
-                    <br>
-                    Misi Sosial & Ekonomi: <br>
-                    Membantu masyarakat sekitar yang tidak mampu dalam bentuk bantuan pelayanan kesehatan dan ekonomi<br>
-                    Membantu menciptakan lapangan kerja<br>
-                    Membantu pemerintah menghidupkan sektor riil<br>
-                    <br>
-                    Misi Edukatif:<br>
-                    Mendidik masyarakat sekitar mengenai pentingnya hidup sehat dan berkualitas
-                  </div>
-                  <!-- <div class="tab-pane fade" id="pill-tab-contact" role="tabpanel" aria-labelledby="contact-tab">Etsy mixtape wayfarers, ethical wes anderson tofu before they sold out mcsweeney's organic lomo retro fanny pack lo-fi farm-to-table readymade. Messenger bag gentrify pitchfork tattooed craft beer, iphone skateboard locavore carles etsy salvia banksy hoodie helvetica. DIY synth PBR banksy irony. Leggings gentrify squid 8-bit cred pitchfork.</div> -->
-                </div>
-              <!-- </div>
-            </div> -->
-          <!-- </div> -->
+          <ul class="nav nav-pills" id="pill-myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pill-home-tab" data-toggle="tab" href="#pill-tab-home" role="tab" aria-controls="pill-tab-home" aria-selected="true">Visi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pill-profile-tab" data-toggle="tab" href="#pill-tab-profile" role="tab" aria-controls="pill-tab-profile" aria-selected="false">Misi</a>
+            </li>
+          </ul>
+          <div class="tab-content border p-3 mt-3" id="pill-myTabContent">
+            <div class="tab-pane fade show active" id="pill-tab-home" role="tabpanel" aria-labelledby="home-tab">Menjadikan rumah sakit pilihan, mandiri, berkarakter, dan islami</div>
+            <div class="tab-pane fade text-justify" id="pill-tab-profile" role="tabpanel" aria-labelledby="profile-tab">
+              Misi Umum: <br>
+              Mengembangkan dan membangun sistem RS Islam Aysha <br>
+              Membangun gedung yang representatif sesuai dengan standar rumah sakit yang baik <br>
+              Membangun komitmen SDM di seluruh lini pelayanan yang mencakup pengembangan keterampilan, ilmu pengetahuan, dan perilaku <br>
+              Meningkatkan kinerja pembelajaran sesuai target usaha RS melalui kinerja keuangan, kinerja pelanggan, kinerja infrastruktur, dan kinerja pengembangan <br>
+              <br>
+              Misi Sosial & Ekonomi: <br>
+              Membantu masyarakat sekitar yang tidak mampu dalam bentuk bantuan pelayanan kesehatan dan ekonomi<br>
+              Membantu menciptakan lapangan kerja<br>
+              Membantu pemerintah menghidupkan sektor riil<br>
+              <br>
+              Misi Edukatif:<br>
+              Mendidik masyarakat sekitar mengenai pentingnya hidup sehat dan berkualitas
+            </div>
+          </div>
         </div>
       </section>
       
@@ -259,173 +229,43 @@ p.mt-4 We offer extensive medical procedures to outbound and inbound patients wh
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-primary py-5">
+      <section class="bg-success py-5">
         <div class="container">
           <div class="row">
-            <div class="col-md-12 col-lg-6">
-              <div class="row">
-                <div class="col-6 text-center border-right border-white-25"><img class="mb-2" src="assets/img/icons/happy-1.png" alt="" width="50" /><br /><span class="fs-4 font-weight-medium text-white" data-countup='{"count":36487}'>0</span>
-                  <p class="fs-1 text-white">Aman</p>
-                </div>
-                <div class="col-6 text-center border-lg-right border-white-25"><img class="mb-2" src="assets/img/icons/shop.png" alt="" width="50" /><br /><span class="fs-4 font-weight-medium text-white" data-countup="{&quot;count&quot;:512}">0</span>
-                  <p class="fs-1 text-white">Yakin</p>
-                </div>
-              </div>
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/happy-1.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Aman</p>
+              <p class="fs-sm text-white ">Mengedepankan pelayanan yang optimal, kredibel demi kesembuhan dan kesehatan pasien dengan penuh rasa tanggung jawab. Memberikan pelayanan perawatan kesehatan tanpa ada rasa cemas terhadap pasien dan keluarga pasien dilandasi dengan kaidah-kaidah keislaman dan standard prosedur pelayanan yang berlaku.</p>
             </div>
-            <div class="col-md-12 my-4 d-lg-none">
-              <div class="row justify-content-around">
-                <div class="col-5 col-lg-4 border-top border-white-25"></div>
-                <div class="col-5 col-lg-4 border-top border-white-25"></div>
-              </div>
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/shop.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Yakin</p>
+              <p class="fs-sm text-white">Memberikan keyakinan bahwa semua pelayanan yang diberikan atas dasar ibadah menolong sesama tercermin dalam tindakan yanng mendahulukan pertolongan menyelamatkan nyawa dan mengupayakan kesembuhan semaksimal mungkin atas kuasa Allah SWT</p>
             </div>
-            <div class="col">
-              <div class="row">
-                <div class="col-6 text-center border-right border-white-25"><img class="mb-2" src="assets/img/icons/pie-chart.png" alt="" width="50" /><br /><span class="fs-4 font-weight-medium text-white" data-countup="{&quot;count&quot;:25}">0</span>
-                  <p class="fs-1 text-white">Siddiq</p>
-                </div>
-                <div class="col-6 text-center"><img class="mb-2" src="assets/img/icons/like.png" alt="" width="50" /><br /><span class="fs-4 font-weight-medium text-white" data-countup="{&quot;count&quot;:130}">0</span>
-                  <p class="fs-1 text-white">Humanis</p>
-                </div>
-                <div class="col-6 text-center"><img class="mb-2" src="assets/img/icons/like.png" alt="" width="50" /><br /><span class="fs-4 font-weight-medium text-white" data-countup="{&quot;count&quot;:130}">0</span>
-                  <p class="fs-1 text-white">Humanis</p>
-                </div>
-              </div>
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/pie-chart.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Siddiq</p>
+              <p class="fs-sm text-white">Memberikan pelayanan kesehatan sesuai dengan kaidah ilmiah dan kaidah profesi menjunjung tinggi sikap profesional mengutamakan etika dan moral serta berakhlak mulia</p>
+            </div>
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/like.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Humanis</p>
+              <p class="fs-sm text-white">Memberikan pelayanan dengan rasa peri kemanusiaan, menjunjung tinggi harkat peran dan tanggung jawab berdasar pada tuntunan keislaman</p>
+            </div>
+            <div class="col-md text-center">
+              <img class="mb-2" src="assets/img/icons/like.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Amanah</p>
+              <p class="fs-sm text-white">Mengedepankan pelayanan yang optimal demi kesembuhan/kesehatan pasien bagi seluruhan lapisan masyarakat</p>
             </div>
           </div>
-        </div><!-- end of .container-->
+        </div>        
+        <!-- end of .container-->
       </section><!-- <section> close ============================-->
       <!-- ============================================-->
 
 
 
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <!-- <section>
-        <div class="container">
-          <div class="text-center mb-5" data-zanim-timeline="{&quot;delay&quot;:0.1}" data-zanim-trigger="scroll">
-            <div class="overflow-hidden">
-              <h6 class="font-weight-bold" data-zanim-xs='{"delay":0}'>Meet Our Experienced Team</h6>
-            </div>
-            <div class="overflow-hidden">
-              <h3 data-zanim-xs='{"delay":0.3}'>Our Dedicated Doctors Team</h3>
-            </div>
-            <div class="overflow-hidden">
-              <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
-            </div>
-          </div>
-          <div class="row justify-content-center">
-            <div class="col-xxl-10">
-              <div class="row mt-3">
-                <div class="col-lg-6" data-zanim-xs='{"delay":0.1}' data-zanim-trigger="scroll">
-                  <div class="rounded-soft overflow-hidden bg-light hvr-shadow">
-                    <div class="row">
-                      <div class="col-xl-6 col-lg-5 col-md-6 col-12"><img class="img-fluid" src="assets/img/doctor/10.jpg" alt="thumb-image" /></div>
-                      <div class="col align-self-center py-3">
-                        <h5 class="mb-0">Maureen M. Achebe</h5>
-                        <p class="font-weight-semi-bold fs--1 text-500">MD Hematology</p>
-                        <p>Maureen M. Achebe, MD, is a transplant Hematology and an Associate Professor of Medicine at Harvard Medical School. Dr. Abdi’s research focuses on the role of ischemia reperfusion injuries in augmenting immunogenicity of allografts. He also has a research interest in the ,</p>
-                        <div class="icon-group mt-lg-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-lg-6 mt-6 mt-lg-0" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                  <div class="rounded-soft overflow-hidden bg-light hvr-shadow">
-                    <div class="row">
-                      <div class="col-xl-6 col-lg-5 col-md-6 col-12"><img class="img-fluid" src="assets/img/doctor/14.jpg" alt="thumb-image" /></div>
-                      <div class="col align-self-center py-3">
-                        <h5 class="mb-0">Elisa Abdulhayoglu</h5>
-                        <p class="font-weight-semi-bold fs--1 text-500">MD, MS Pediatric Medicine, Neonatology</p>
-                        <p>Dr. Abdulhayoglu is the chief of the Neonatology division at Newton-Wellesley Hospital as well as a staff neonatologist at Brigham and Women’s Hospital. She is an Instructor in Pediatrics at Harvard Medical School and has a Master’s of Science degree in Health Communication.</p>
-                        <div class="icon-group mt-lg-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div class="row mt-5">
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.1}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/15.jpg" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Jessica Fency</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, DEM (DU), MD (Endocrinology)</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/2.jpg" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Diler Acar</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, DDSc (UK), MDSc (USA)</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/3.png" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Reza Abdi</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, FRCP (Glasgow), DDV, MCPS, MD</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.4}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/4.png" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Susan Ann Abookire</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, Diploma in Dermatology and Venereology, FCPS (Dermatology and Venereology)</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.1}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/16.jpg" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Modhu Maria</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, FCPS (Dermatology &amp; VD), MRCPS (Glasgow), FACP (USA), FRCP (Edin)</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.2}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/6.jpg" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Thomas A. Abrams</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, MS (Gen. Surgery), M. Ch. (Plastic Surgery)</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.3}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/7.png" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Janet L. Abrahm</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, MRCP (UK), D.Card. (London)</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-                <div class="col-xl-3 col-lg-4 col-md-6 mb-5" data-zanim-xs='{"delay":0.4}' data-zanim-trigger="scroll">
-                  <div class="card text-center h-100 hvr-shadow"><img class="card-img-top" src="assets/img/doctor/8.jpg" alt="thumb-image" />
-                    <div class="card-body bg-light">
-                      <h5 class="card-title mb-0">Carrie P. Aaron</h5>
-                      <p class="font-weight-semi-bold fs--1 text-500 mt-1">MBBS, D.Card. (DU), FCPS (Medicine)</p>
-                      <div class="icon-group justify-content-center mt-3"><a class="icon-item bg-white text-twitter" href="#"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white text-linkedin" href="#"><span class="fab fa-linkedin-in"></span></a><a class="icon-item bg-white text-primary" href="#"><span class="fab fa-instagram"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> -->
-        <!-- end of .container-->
-      <!-- </section> -->
-      <!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
+      
        <!-- ============================================-->
       <!-- <section> begin ============================-->
         <section>
@@ -434,20 +274,20 @@ p.mt-4 We offer extensive medical procedures to outbound and inbound patients wh
               <div class="col-xxl-10">
                 <div class="row">
                   <div class="col-lg-8 mb-4 mt-lg-0 order-lg-1">
-                    <h6 class="mb-1 text-uppercase">Sambutan</h6>
-                    <h3 class="text-uppercase">Pimpinan</h3>
+                    <h6 class="mb-1 text-uppercase text-success">Sambutan</h6>
+                    <h3 class="text-uppercase text-success">Pimpinan</h3>
                     <div class="border-dark text-left position-relative">
                       <hr class="hr-short position-absolute d-block bg-primary m-0" />
                     </div>
-                    <p>Assalamualaikum Wr Wb</p>
-                    <p>Pertama tama mari kita panjatkan puji Syukur kehadirat Allah Swt atas semua nikmat yang diberikan kepada kita semua, shalawat dan salam kita sampaikan kepada baginda Agung Nabi Muhammad SAW.</p>
-                    <p>Alhamdulillah atas dukungan semua pihak pembangunan RS Islam Aysha telah selesai kami laksanakan, kami ucapkan beribu terima kasih kepada seluruh Instansi terkait Pemerintah Kabupaten Bogor, seluruh kontraktor, masyarakat sekitar dan tentunya jajaran Manajemen YPI Arrohman / SIT Almadinah dan jajaran Manajemen BJBS, serta Amanah Ummah dan semua pihak yang tidak bisa kami sebutkan satu persatu yang telah mendukuh penuh terlaksananya pembangunan RS Islam Aysha ini. Spirit pembangunan RS Islam Aysha ini adalah dalam rangka membantu pemerintah menyiapkan fasilitas kesehatan yang representatif dan memadai untuk masyarakat Kabupaten Bogor dan sekitarnya dalam mendukung program Pemerintah Daerah Kabupaten Bogor yaitu program Bogor Sehat, dengan cara membangun rumah sakit Pilihan yang Unggul, Mandiri dan Berkarakter serta Islami dengan menjunjung tinggi nilai-nilai Rumah Sakit yang Aman, Yakin, Siddiq, Humanis dan Amanah (AYSHA).</p>
-                    <p>Tentu saja tidak ada gading yang tidak retak, tidak ada sesuatu yang sempurna kesempurnaan hanya milik Allah semata, untuk itu kami atas nama Rumah Sakit Islam Asyha mohon dibukakan pintu maa yang sebesar besarnya apabila masih ada kekurangan disana sini dalam kami membangun Rumah Sakit ini, tapi kami akan senantiasa berkomitmen untuk selalu mengevaluasi diri untuk menyempurnakan semaksimal mungkin dan melengkapi kekurangan-kekurangan yang ada.</p>
-                    <p>Demikian kami sampaikan atas perhatian dan kerjasamanya kami sampaikan banyak terimakasih,</p>
-                    <p>Hormat kami,</p>
+                    <p class="text-justify">Assalamualaikum Wr Wb</p>
+                    <p class="text-justify">Pertama tama mari kita panjatkan puji Syukur kehadirat Allah Swt atas semua nikmat yang diberikan kepada kita semua, shalawat dan salam kita sampaikan kepada baginda Agung Nabi Muhammad SAW.</p>
+                    <p class="text-justify">Alhamdulillah atas dukungan semua pihak pembangunan RS Islam Aysha telah selesai kami laksanakan, kami ucapkan beribu terima kasih kepada seluruh Instansi terkait Pemerintah Kabupaten Bogor, seluruh kontraktor, masyarakat sekitar dan tentunya jajaran Manajemen YPI Arrohman / SIT Almadinah dan jajaran Manajemen BJBS, serta Amanah Ummah dan semua pihak yang tidak bisa kami sebutkan satu persatu yang telah mendukuh penuh terlaksananya pembangunan RS Islam Aysha ini. Spirit pembangunan RS Islam Aysha ini adalah dalam rangka membantu pemerintah menyiapkan fasilitas kesehatan yang representatif dan memadai untuk masyarakat Kabupaten Bogor dan sekitarnya dalam mendukung program Pemerintah Daerah Kabupaten Bogor yaitu program Bogor Sehat, dengan cara membangun rumah sakit Pilihan yang Unggul, Mandiri dan Berkarakter serta Islami dengan menjunjung tinggi nilai-nilai Rumah Sakit yang Aman, Yakin, Siddiq, Humanis dan Amanah (AYSHA).</p>
+                    <p class="text-justify">Tentu saja tidak ada gading yang tidak retak, tidak ada sesuatu yang sempurna kesempurnaan hanya milik Allah semata, untuk itu kami atas nama Rumah Sakit Islam Asyha mohon dibukakan pintu maa yang sebesar besarnya apabila masih ada kekurangan disana sini dalam kami membangun Rumah Sakit ini, tapi kami akan senantiasa berkomitmen untuk selalu mengevaluasi diri untuk menyempurnakan semaksimal mungkin dan melengkapi kekurangan-kekurangan yang ada.</p>
+                    <p class="text-justify">Demikian kami sampaikan atas perhatian dan kerjasamanya kami sampaikan banyak terimakasih,</p>
+                    <p class="text-justify">Hormat kami,</p>
                     <br><br><br>
-                    <p>Dr. HR Agus Sriyanta M.Pd</p>
-                    <p>Komisaris</p>
+                    <p class="text-justify">Dr. HR Agus Sriyanta M.Pd</p>
+                    <p class="text-justify">Komisaris</p>
                     <!-- <img class="mt-3" src="assets/img/illustrations/signature.png" alt="" width="170" /> -->
                   </div>
                   <div class="col"><img class="img-fluid rounded" src="assets/img/about/9.jpg" alt="" /></div>
@@ -461,7 +301,7 @@ p.mt-4 We offer extensive medical procedures to outbound and inbound patients wh
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-        <section class="bg-primary py-4">
+        <section class="bg-success py-4">
           <div class="container">
             <div class="row justify-content-center text-white">
               <div class="col-lg-4">
