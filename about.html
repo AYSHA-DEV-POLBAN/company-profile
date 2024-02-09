@@ -2,7 +2,7 @@
 <html lang="en-US" dir="ltr">
 
   
-<!-- Mirrored from themewagon.gitlab.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2024 07:56:23 GMT -->
+<!-- Mirrored from themewagon.gitlab.io/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2024 07:59:19 GMT -->
 <!-- Added by HTTrack --><meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 <head>
     <meta charset="utf-8">
@@ -30,7 +30,8 @@
     <!-- ===============================================-->
     <link href="https://fonts.googleapis.com/css?family=Oxygen%7cRaleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet">
-    <link href="assets/lib/flexslider/flexslider.css" rel="stylesheet">
+    <link href="assets/lib/semantic-ui-accordion/accordion.min.css" rel="stylesheet">
+    <link href="assets/lib/semantic-ui-transition/transition.min.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet">
   </head>
 
@@ -71,7 +72,7 @@
           </ul>
           <ul class="navbar-nav align-items-center">
             <li class="nav-item"><a class="btn btn-outline-danger btn-sm mx-2" href="#!"><span class="d-none d-md-inline">Find a </span>Doctor</a></li>
-            <li class="nav-item"><a class="btn btn-success btn-sm" href="#appointmentModal" data-toggle="modal"><span class="d-none d-md-inline">Request </span>Appointment</a></li>
+            <li class="nav-item"><a class="btn btn-success btn-sm" href="#pendaftaranModal" data-toggle="modal"><span class="d-none d-md-inline">Request </span>Appointment</a></li>
           </ul>
         </div>
       </nav>
@@ -121,16 +122,16 @@
               </li>
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownUtilities" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pusat Informasi</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownUtilities">
-                  <a class="dropdown-item" href="pusatinformasi/jadwal-dokter.html">Jadwal Dokter</a>
-                  <a class="dropdown-item" href="pusatinformasi/paket-layanan.html">Informasi Paket Layanan</a>
-                  <a class="dropdown-item" href="pusatinformasi/alur-layanan.html">Informasi Alur Pelayanan dan Pengaduan</a>
-                  <a class="dropdown-item" href="pusatinformasi/kerjasama-perusahaan-asuransi.html">Kerjasama Perusahaan dan Asuransi</a>
-                  <a class="dropdown-item" href="pusatinformasi/faq.html">Tanya Jawab (FAQ)</a>
+                  <a class="dropdown-item" href="../pusatinformasi/jadwal-dokter.html">Jadwal Dokter</a>
+                  <a class="dropdown-item" href="../pusatinformasi/paket-layanan.html">Informasi Paket Layanan</a>
+                  <a class="dropdown-item" href="../pusatinformasi/alur-layanan.html">Informasi Alur Pelayanan dan Pengaduan</a>
+                  <a class="dropdown-item" href="../pusatinformasi/kerjasama-perusahaan-asuransi.html">Kerjasama Perusahaan dan Asuransi</a>
+                  <a class="dropdown-item" href="../pusatinformasi/faq.html">Tanya Jawab (FAQ)</a>
                 </div>
               </li>
-              <li class="nav-item"><a class="nav-link" href="#pendaftaranModal" data-toggle="modal">Pendaftaran</a></li>
-              <!-- <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link" id="navbarDropdownPlugins" href="pendaftaran.html" aria-expanded="false">Pendaftaran</a>
-              </li> -->
+              <li class="nav-item"><a class="nav-link" id="navbarDropdownPlugins" href="#pendaftaranModal" data-toggle="modal">Pendaftaran</a>
+                <!-- <div class="dropdown-menu" aria-labelledby="navbarDropdownPlugins"><a class="dropdown-item" href="plugins/accordion.html">Accordion</a><a class="dropdown-item" href="plugins/countup.html">Countup</a><a class="dropdown-item" href="plugins/fancyscroll.html">Fancyscroll</a><a class="dropdown-item" href="plugins/ytplayer.html">Ytplayer</a><a class="dropdown-item" href="plugins/flexslider.html">Flexslider</a></div> -->
+              </li>
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownDocumentation" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Artikel & Berita</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownDocumentation">
                   <a class="dropdown-item" href="berita-acara.html">Berita dan Acara</a>
@@ -141,237 +142,18 @@
           </div>
         </div>
       </nav>
-      <div class="flexslider overflow-hidden mb-0 text-success">
-        <ul class="slides">
-          <li data-zanim-timeline="{&quot;delay&quot;:0}" data-zanim-trigger="scroll">
-
-            <!-- ============================================-->
-            <!-- <section> begin ============================-->
-            <section class="py-0 text-center">
-              <!-- <div class="bg-holder" style="background-image:url(assets/img/imageRS.png); opacity: 70%;"></div> -->
-              <div class="bg-holder" style="background-image:url(assets/img/header/2.jpg); opacity: 50%;"></div>
-              <!--/.bg-holder-->
-              <div class="container">
-                <div class="row align-items-center min-vh-73 py-8 justify-content-center justify-content-md-end">
-                  <div class="col-auto">
-                    <div class="overflow-hidden">
-                      <h1 class="fs-sm-4 fs-3 text-success" data-zanim-xs='{"animation":"default","delay":0,"duration":1}'>RS Islam Aysha</h1>
-                    </div>
-                    <div class="overflow-hidden">
-                      <p class="fs-sm-1 fs-0" data-zanim-xs='{"animation":"default","delay":0.1,"duration":1}'>Rumah sakit tipe C yang memiliki lebih dari 14 poliklinik dan ruang rawat inap <br> yang memiliki kapasitas 118 tempat tidur yang terbagi menjadi 4 tipe kelas</p>
-                    </div>
-                    <div class="overflow-hidden">
-                      <div data-zanim-xs='{"animation":"default","delay":0.2,"duration":1}'><a class="btn btn-success mt-4" href="#!">Baca Lebih Lanjut<span class="fas ml-1 fa-chevron-right" data-fa-transform="shrink-4 down-1.5"></span></a></div>
-                    </div>
-                  </div>
-                </div>
-              </div><!-- end of .container-->
-            </section><!-- <section> close ============================-->
-            <!-- ============================================-->
-
-          </li>
-          <li data-zanim-timeline="{&quot;delay&quot;:0}" data-zanim-trigger="scroll">
-
-            <!-- ============================================-->
-            <!-- <section> begin ============================-->
-            <section class="py-0 text-center">
-              <div class="bg-holder" style="background-image:url(assets/img/artikel.jpg);"></div>
-              <!--/.bg-holder-->
-              <div class="container">
-                <div class="row align-items-center min-vh-73 py-8 justify-content-center">
-                  <div class="col-auto">
-                    <!-- <div class="overflow-hidden">
-                      <h1 class="fs-sm-4 fs-3" data-zanim-xs='{"animation":"default","delay":0,"duration":1}'>Help is here <br> When You Need it</h1>
-                    </div>
-                    <div class="overflow-hidden">
-                      <p class="fs-sm-1 fs-0" data-zanim-xs='{"animation":"default","delay":0.1,"duration":1}'>A&amp;E average wait time: 30mins</p>
-                    </div>
-                    <div class="overflow-hidden">
-                      <div data-zanim-xs='{"animation":"default","delay":0.2,"duration":1}'><a class="btn btn-success mt-4" href="#!">Learn More<span class="fas ml-1 fa-chevron-right" data-fa-transform="shrink-4 down-1.5"></span></a></div>
-                    </div>
-                  </div> -->
-                </div>
-              </div><!-- end of .container-->
-            </section><!-- <section> close ============================-->
-            <!-- ============================================-->
-
-        </ul>
-      </div>
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-      <section class="bg-200 py-3" data-zanim-timeline='{"delay":0}' data-zanim-trigger="scroll">
-        <div class="container">
-          <div class="row flex-center text-center">
-            <div class="col-md-auto">
-              <h3 class="fs-0 fs-sm-1 mb-md-0 text-uppercase">terhubung dengan kami</h3>
-            </div>
-            <div class="col-md-auto mt-md-0">
-              <div class="icon-group justify-content-center"><a class="icon-item bg-white transition-base text-facebook" href="#!"><span class="fab fa-facebook"></span></a><a class="icon-item bg-white transition-base text-twitter" href="#!"><span class="fab fa-twitter"></span></a><a class="icon-item bg-white transition-base text-youtube" href="#!"><span class="fab fa-youtube"></span></a><a class="icon-item bg-white transition-base text-linkedin" href="#!"><span class="fab fa-linkedin"></span></a><a class="icon-item bg-white transition-base text-danger" href="#!"><span class="fab fa-pinterest"></span></a></div>
-            </div>
-          </div>
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="bg-holder overlay overlay-success" style="background-image:url(assets/img/blog/34.jpg);"></div>
+      <section class="text-success" data-zanim-timeline='{"delay":0}' data-zanim-trigger="scroll">
+        <div class="bg-holder overlay overlay-white-gradient" style="background-image:url(assets/img/about/13.jpg);"></div>
         <!--/.bg-holder-->
         <div class="container">
-          <div class="text-center mb-5" data-zanim-timeline="{&quot;delay&quot;:0.1}" data-zanim-trigger="scroll">
-            <div class="overflow-hidden">
-              <h6 class="font-weight-bold text-white" data-zanim-xs='{"delay":0}'>Aysha</h6>
-            </div>
-            <div class="overflow-hidden">
-              <h3 class="text-white text-uppercase" data-zanim-xs='{"delay":0.3}'>Poliklinik</h3>
-            </div>
-            <div class="overflow-hidden">
-              <hr class="hr-short border-400" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
-            </div>
-          </div>
-          <div class="row text-uppercas justify-content-center">
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Anak</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Bedah</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Kandungan</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Penyakit Dalam</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Syaraf</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Mata</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Kecantikan</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Kulit &amp; Kelamin</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik THT</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-            <div class="col-xxl-3 col-lg-4 col-md-6 mb-4">
-              <div class="link-card border border-2x border-white-25">
-                <h5 class="text-white fs-0 mb-0">Poliklinik Jantung</h5><a class="text-white stretched-link link-card-arrow" href="#!"><span class="fas fa-chevron-right"></span></a>
-              </div>
-            </div>
-
-          </div>
-          <div class="row justify-content-center text-center mt-4">
-            <div class="col-lg-7">
-              <p class="lead text-white mb-0">Terdapat 10 poliklinik di RS Islam Aysha yang dapat dikunjungi oleh masyarakat.</p>
-            </div>
-          </div>
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-<!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section>
-        <div class="container justify-content-center">
-          <div class="text-center mb-5" data-zanim-timeline="{&quot;delay&quot;:0.1}" data-zanim-trigger="scroll">
-            <div class="overflow-hidden">
-              <h3 class="text-uppercase text-success" data-zanim-xs='{"delay":0.3}'>Berita dan Artikel</h3>
-            </div>
-            <div class="overflow-hidden">
-              <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
-            </div>
-          </div>
+          <div class="row align-items-center">
             <div class="col">
-              <div class="row h-100  justify-content-center">
-                <div class="col-md-5 col-xxl-3 mb-3 mb-xxl-0">
-                  <div class="card h-100 hvr-shadow h-100"><img class="card-img-top" src="assets/img/blog/11.jpg" alt="" />
-                    <div class="card-body">
-                      <h5><a class="stretched-link text-decoration-none text-success" href="research-single.html">Lorem Ipsum</a></h5>
-                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <div class="card-footer text-success"><a href="research-single.html">Baca lebih lanjut<span class="fa-chevron-right fas ml-1" data-fa-transform="shrink-4 down-1.5"></span></a></div>
-                  </div>
-                </div>
-                <div class="col-md-5 col-xxl-3 mb-3 mb-xxl-0">
-                    <div class="card h-100 hvr-shadow h-100"><img class="card-img-top" src="assets/img/blog/11.jpg" alt="" />
-                      <div class="card-body">
-                        <h5><a class="stretched-link text-decoration-none text-success" href="research-single.html">Lorem Ipsum</a></h5>
-                        <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                      </div>
-                      <div class="card-footer text-success"><a href="research-single.html">Baca lebih lanjut<span class="fa-chevron-right fas ml-1" data-fa-transform="shrink-4 down-1.5"></span></a></div>
-                    </div>
-                  </div>
-                <div class="col-md-5 col-xxl-3 mb-3 mb-xxl-0">
-                  <div class="card h-100 hvr-shadow h-100"><img class="card-img-top" src="assets/img/blog/8.jpg" alt="" />
-                    <div class="card-body">
-                      <h5><a class="stretched-link text-decoration-none text-success" href="research-single.html">Lorem Ipsum</a></h5>
-                      <p class="mb-0">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    </div>
-                    <div class="card-footer text-success"><a href="research-single.html">Baca lebih lanjut<span class="fa-chevron-right fas ml-1" data-fa-transform="shrink-4 down-1.5"></span></a></div>
-                  </div>
-                </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div><!-- end of .container-->
-      </section><!-- <section> close ============================-->
-      <!-- ============================================-->
-
-
-      <!-- ============================================-->
-      <!-- <section> begin ============================-->
-      <section class="bg-success py-4">
-        <div class="container">
-          <div class="row justify-content-center text-white">
-            <div class="col-lg-4">
-              <div class="media"><img class="img-fluid align-self-center" src="assets/img/icons/customer-service.png" alt="" width="40" />
-                <div class="media-body ml-3"><a class="text-white fs-1 font-weight-semi-bold mb-0" href="tel:12345678910">(0251) 8663689</a>
-                  <p class="fs--1 mb-0">Have a question? call us now</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 mt-3 mt-lg-0">
-              <div class="media"><img class="img-fluid align-self-center" src="assets/img/icons/mail-5.png" alt="" width="50" />
-                <div class="media-body ml-3"><a class="text-white fs-1 font-weight-semi-bold mb-0" href="mailto:help@medicare.com">humas@rsislamaysha.com</a>
-                  <p class="fs--1 mb-0">Need support? Drop us an email</p>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 mt-3 mt-lg-0">
-              <div class="media"><img class="img-fluid align-self-center" src="assets/img/icons/clock-2.png" alt="" width="50" />
-                <div class="media-body ml-3">
-                  <p class="lead font-weight-semi-bold mb-0">24 Jam</p>
-                  <p class="fs--1 mb-0">We are open on</p>
-                </div>
+              <div class="overflow-hidden">
+                <h3 class="text-success" data-zanim-xs='{"from":{"x":-400},"to":{"x":0}}'>RS Islam Aysha</h3>
+                <p class="font-weight-bold mb-0" data-zanim-xs='{"delay":0.1,"from":{"x":-400},"to":{"x":0}}'>Tentang rumah sakit islam aysha</p>
               </div>
             </div>
           </div>
@@ -385,39 +167,210 @@
       <!-- <section> begin ============================-->
       <section>
         <div class="container">
-          <div class="row">
-            <div class="col"><a class="d-block" href="index.html"><img src="assets/img/logo-aysha.png" alt="" height="60" /></a>
-              <!-- <h5 class="text-uppercase border-bottom mt-4 pb-2 mb-3 d-inline-block">brigham and women's hospital</h5> -->
-              <p class="text-uppercase mb-1">Jalan Acropolis Utara, RT.06/RW.18, Karadenan, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16913</p>
-              <p class="mb-1">Telepon: <a href="#!">(0251) 8663689</a></p>
-              <p class="mb-1">Whatsapp: <a href="#!">081261262822</a></p>
-            </div>
-            <div class="col-xl-8 mt-4 mt-xl-0">
+          <div class="row justify-content-center">
+            <div class="col-xxl-10">
               <div class="row">
-                <div class="col-lg-6 mt-4 mt-lg-0">
-                  <h5 class="fs-0 text-uppercase border-bottom pb-2 mb-3 text-success">Fasilitas </h5>
-                  <div class="row no-gutters">
-                    <div class="col">
-                      <div class="nav flex-column"><a class="text-600 py-1" href="#!">IGD</a><a class="text-600 py-1" href="#!">Rawat Inap</a><a class="text-600 py-1" href="#!">Poliklinik</a><a class="text-600 py-1" href="#!">Penunjang Medis</a><a class="text-600 py-1" href="#!">Fasilitas Umum</a></div>
-                    </div>
-                    <div class="col">
-                      <div class="nav flex-column"><a class="text-600 py-1" href="#!">Neurosurgery</a><a class="text-600 py-1" href="#!">Orthopaedic Surgery</a><a class="text-600 py-1" href="#!">Obstetrics and Gynecology</a><a class="text-600 py-1" href="#!">Obstetrics and Gynecology</a></div>
-                    </div>
+                <div class="col-lg-8 mb-4 mt-lg-0 order-lg-1">
+                  <h6 class="mb-1 text-uppercase text-success">Tentang</h6>
+                  <h3 class="text-uppercase text-success">Rumah Sakit Islam Aysha</h3>
+                  <div class="border-dark text-left position-relative">
+                    <hr class="hr-short position-absolute d-block bg-success m-0" />
                   </div>
+
+                  <p class="text-justify">Rumah Sakit Islam Aysha adalah Rumah sakit Umum tipe C yang didirikan oleh PT. Asri Cahya Medika dibawah kepemimpinan Dr. H. R. Agus Sriyanta, M.Pd. diatas lahan ± 8.664 meter, beralamat di Perumahan Acropolis, Jl. Sukahati, Karadenan Cibinong, Bogor.</p>
+                  <p class="text-justify">Gedung Rumah Sakit Islam Aysha saat ini terdiri dari 4 lantai dengan luas bangunan ± 6.600 meter persegi, dimana bangunan tersebut sejak peletakan batu pertama pada tanggal 20 November 2020 ini dirancang untuk dapat menampung pelayanan rawat jalan dengan lebih dari 14 poliklinik, rawat inap dengan kapasitas 118 tempat tidur dibagi dalam 4 kelas, yaitu kelas VVIP, VIP, Kelas 1, Kelas 2, Kelas 3, Ruang Operasi, Ruang bersalin, Ruang Bayi, IGD dll. Lahan parkir yang tersedia dapat menampung sampai dengan lebih dari 100 kendaraan roda 4 dan 250 kendaraan roda 2.</p>
+                  <p class="text-justify">Pada tanggal 01 Juli 2022 menjadi sejarah lahirnya Rumah Sakit Islam AYSHA. Pada acara Grand Opening berlangsung dihadiri kurang lebih 600 tamu undangan. Salah satunya di hadiri oleh Plt. Bupati Bogor Bapak H. Iwan Setiawan, SE. beserta tamu-tamu VIP lainya.</p>
+                  <p class="text-justify">Plt. Bapati Bogor, Iwan Setiawan menyambut baik dibukanya Rumah Sakit Islam Aysha ditengah upaya meningkatkan kualitas layanan kesehatan untuk masyarakat. Selanjutnya, Direktur Utama RS Islam Aysha , dr. Alfian Sutandi menerangkan Rs Islam Aysha dibangun untuk membantu masyarakat sekitar mendapatkan kemudahan akses pelayanan kesehatan, dan berdakwah melalui kesehatan. Kemudian turut serta Pemerintah Kabupaten Bogor mewujudkan  Pancakarsa  yakni Karsa Bogor Sehat.</p>
+                  <p class="text-justify">Rumah Sakit Islam Aysha berharap untuk menjadi sahabat masyarakat dalam mempercayakan kesehatannya. Dan memberikan pelayanan terbaik dibidang Kesehatan dengan layanan yang professional, modern, dan berbasis nilai ke-islaman.</p>
+
                 </div>
-                <div class="col-lg-3">
-                  <h5 class="fs-0 text-uppercase border-bottom pb-2 mb-3 text-success">Poliklinik</h5>
-                  <div class="nav flex-column"><a class="text-600 py-1" href="#!">Poliklinik Anak</a><a class="text-600 py-1" href="#!">Poliklinik Syaraf</a><a class="text-600 py-1" href="#!">Poliklinik Bedah</a><a class="text-600 py-1" href="#!">Poliklinik Kandungan</a><a class="text-600 py-1" href="#!">Poliklinik Penyakit Dalam</a><a class="text-600 py-1" href="#!">Poliklinik Mata</a><a class="text-600 py-1" href="#!">Poliklinik Kecantikan</a></div>
-                </div>
-                <div class="col-lg-3 mt-4 mt-lg-0">
-                  <h5 class="fs-0 text-uppercase border-bottom pb-2 mb-3 text-success">Pusat Informasi </h5>
-                  <div class="nav flex-column"><a class="text-600 py-1" href="#!">Jadwal Dokter</a><a class="text-600 py-1" href="#!">Informasi Paket Layanan</a><a class="text-600 py-1" href="#!">Informasi Alur Pelayanan dan Pengaduan</a><a class="text-600 py-1" href="#!">Kerjasama Perusahaan dan Asuransi</a><a class="text-600 py-1" href="#!">Tnya Jawab (FAQ)</a></div>
-                </div>
+                
+                <div class="col"><img class="img-fluid rounded" src="assets/img/about/9.jpg" alt="" /></div>
               </div>
+            </div>
+          </div>
+        </div><!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+      
+
+      <!-- ==========start content============= -->
+      <!-- ==================================== -->
+        <div  style="margin-bottom: 40px; width: 1000px; margin-left: 260px;">
+          <ul class="nav nav-pills" id="pill-myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pill-home-tab" data-toggle="tab" href="#pill-tab-home" role="tab" aria-controls="pill-tab-home" aria-selected="true">Visi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pill-profile-tab" data-toggle="tab" href="#pill-tab-profile" role="tab" aria-controls="pill-tab-profile" aria-selected="false">Misi</a>
+            </li>
+          </ul>
+          <div class="tab-content border p-3 mt-3" id="pill-myTabContent">
+            <div class="tab-pane fade show active" id="pill-tab-home" role="tabpanel" aria-labelledby="home-tab">Menjadikan rumah sakit pilihan, mandiri, berkarakter, dan islami</div>
+            <div class="tab-pane fade text-justify" id="pill-tab-profile" role="tabpanel" aria-labelledby="profile-tab">
+              <p>Misi Umum:</p>
+                <li>Mengembangkan dan membangun sistem RS Islam Aysha </li>
+                <li>Membangun gedung yang representatif sesuai dengan standar rumah sakit yang baik</li>
+                <li>Membangun komitmen SDM di seluruh lini pelayanan yang mencakup pengembangan keterampilan, ilmu pengetahuan, dan perilaku</li>
+                <li>Meningkatkan kinerja pembelajaran sesuai target usaha RS melalui kinerja keuangan, kinerja pelanggan, kinerja infrastruktur, dan kinerja pengembangan</li><br>
+              <p>Misi Sosial & Ekonomi:</p>
+                <li>Membantu masyarakat sekitar yang tidak mampu dalam bentuk bantuan pelayanan kesehatan dan ekonomi</li>
+                <li>Membantu menciptakan lapangan kerja</li>
+                <li>Membantu pemerintah menghidupkan sektor riil</li><br>
+              <p>Misi Edukatif:</p>
+                <li>Mendidik masyarakat sekitar mengenai pentingnya hidup sehat dan berkualitas</li>
             </div>
           </div>
         </div>
-      </section>
+      <!-- ============end content============== -->
+      <!-- ===================================== -->
+      
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+      <section class="bg-success py-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/happy-1.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Aman</p>
+              <p class="fs-sm text-white ">Mengedepankan pelayanan yang optimal, kredibel demi kesembuhan dan kesehatan pasien dengan penuh rasa tanggung jawab. Memberikan pelayanan perawatan kesehatan tanpa ada rasa cemas terhadap pasien dan keluarga pasien dilandasi dengan kaidah-kaidah keislaman dan standard prosedur pelayanan yang berlaku.</p>
+            </div>
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/shop.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Yakin</p>
+              <p class="fs-sm text-white">Memberikan keyakinan bahwa semua pelayanan yang diberikan atas dasar ibadah menolong sesama tercermin dalam tindakan yanng mendahulukan pertolongan menyelamatkan nyawa dan mengupayakan kesembuhan semaksimal mungkin atas kuasa Allah SWT</p>
+            </div>
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/pie-chart.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Siddiq</p>
+              <p class="fs-sm text-white">Memberikan pelayanan kesehatan sesuai dengan kaidah ilmiah dan kaidah profesi menjunjung tinggi sikap profesional mengutamakan etika dan moral serta berakhlak mulia</p>
+            </div>
+            <div class="col-md text-center border-right border-white-25">
+              <img class="mb-2" src="assets/img/icons/like.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Humanis</p>
+              <p class="fs-sm text-white">Memberikan pelayanan dengan rasa peri kemanusiaan, menjunjung tinggi harkat peran dan tanggung jawab berdasar pada tuntunan keislaman</p>
+            </div>
+            <div class="col-md text-center">
+              <img class="mb-2" src="assets/img/icons/like.png" alt="" width="50" /><br />
+              <p class="fs-4 font-weight-medium text-white">Amanah</p>
+              <p class="fs-sm text-white">Mengedepankan pelayanan yang optimal demi kesembuhan/kesehatan pasien bagi seluruhan lapisan masyarakat</p>
+            </div>
+          </div>
+        </div>        
+        <!-- end of .container-->
+      </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      
+       <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section>
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-xxl-10">
+                <div class="row">
+                  <div class="col-lg-8 mb-4 mt-lg-0 order-lg-1">
+                    <h6 class="mb-1 text-uppercase text-success">Sambutan</h6>
+                    <h3 class="text-uppercase text-success">Pimpinan</h3>
+                    <div class="border-dark text-left position-relative">
+                      <hr class="hr-short position-absolute d-block bg-success m-0" />
+                    </div>
+                    <p class="text-justify">Assalamualaikum Wr Wb</p>
+                    <p class="text-justify">Pertama tama mari kita panjatkan puji Syukur kehadirat Allah Swt atas semua nikmat yang diberikan kepada kita semua, shalawat dan salam kita sampaikan kepada baginda Agung Nabi Muhammad SAW.</p>
+                    <p class="text-justify">Alhamdulillah atas dukungan semua pihak pembangunan RS Islam Aysha telah selesai kami laksanakan, kami ucapkan beribu terima kasih kepada seluruh Instansi terkait Pemerintah Kabupaten Bogor, seluruh kontraktor, masyarakat sekitar dan tentunya jajaran Manajemen YPI Arrohman / SIT Almadinah dan jajaran Manajemen BJBS, serta Amanah Ummah dan semua pihak yang tidak bisa kami sebutkan satu persatu yang telah mendukuh penuh terlaksananya pembangunan RS Islam Aysha ini. Spirit pembangunan RS Islam Aysha ini adalah dalam rangka membantu pemerintah menyiapkan fasilitas kesehatan yang representatif dan memadai untuk masyarakat Kabupaten Bogor dan sekitarnya dalam mendukung program Pemerintah Daerah Kabupaten Bogor yaitu program Bogor Sehat, dengan cara membangun rumah sakit Pilihan yang Unggul, Mandiri dan Berkarakter serta Islami dengan menjunjung tinggi nilai-nilai Rumah Sakit yang Aman, Yakin, Siddiq, Humanis dan Amanah (AYSHA).</p>
+                    <p class="text-justify">Tentu saja tidak ada gading yang tidak retak, tidak ada sesuatu yang sempurna kesempurnaan hanya milik Allah semata, untuk itu kami atas nama Rumah Sakit Islam Asyha mohon dibukakan pintu maa yang sebesar besarnya apabila masih ada kekurangan disana sini dalam kami membangun Rumah Sakit ini, tapi kami akan senantiasa berkomitmen untuk selalu mengevaluasi diri untuk menyempurnakan semaksimal mungkin dan melengkapi kekurangan-kekurangan yang ada.</p>
+                    <p class="text-justify">Demikian kami sampaikan atas perhatian dan kerjasamanya kami sampaikan banyak terimakasih,</p>
+                    <p class="text-justify">Hormat kami,</p>
+                    <br><br><br>
+                    <p class="text-justify">Dr. HR Agus Sriyanta M.Pd</p>
+                    <p class="text-justify">Komisaris</p>
+                    <!-- <img class="mt-3" src="assets/img/illustrations/signature.png" alt="" width="170" /> -->
+                  </div>
+                  <div class="col"><img class="img-fluid rounded" src="assets/img/about/9.jpg" alt="" /></div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+        </section><!-- <section> close ============================-->
+        <!-- ============================================-->
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section class="bg-success py-4">
+          <div class="container">
+            <div class="row justify-content-center text-white">
+              <div class="col-lg-4">
+                <div class="media"><img class="img-fluid align-self-center" src="assets/img/icons/customer-service.png" alt="" width="40" />
+                  <div class="media-body ml-3"><a class="text-white fs-1 font-weight-semi-bold mb-0" href="tel:12345678910">(0251) 8663689</a>
+                    <p class="fs--1 mb-0">Have a question? call us now</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mt-3 mt-lg-0">
+                <div class="media"><img class="img-fluid align-self-center" src="assets/img/icons/mail-5.png" alt="" width="50" />
+                  <div class="media-body ml-3"><a class="text-white fs-1 font-weight-semi-bold mb-0" href="mailto:help@medicare.com">humas@rsislamaysha.com</a>
+                    <p class="fs--1 mb-0">Need support? Drop us an email</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-4 mt-3 mt-lg-0">
+                <div class="media"><img class="img-fluid align-self-center" src="assets/img/icons/clock-2.png" alt="" width="50" />
+                  <div class="media-body ml-3">
+                    <p class="lead font-weight-semi-bold mb-0">24 Jam</p>
+                    <p class="fs--1 mb-0">We are open on</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div><!-- end of .container-->
+        </section><!-- <section> close ============================-->
+      <!-- ============================================-->
+
+
+
+      <!-- ============================================-->
+      <!-- <section> begin ============================-->
+        <section>
+          <div class="container">
+            <div class="row">
+              <div class="col"><a class="d-block" href="index.html"><img src="assets/img/logo-aysha.png" alt="" height="60" /></a>
+                <!-- <h5 class="text-uppercase border-bottom mt-4 pb-2 mb-3 d-inline-block">brigham and women's hospital</h5> -->
+                <p class="text-uppercase mb-1">Jalan Acropolis Utara, RT.06/RW.18, Karadenan, Kec. Cibinong, Kabupaten Bogor, Jawa Barat 16913</p>
+                <p class="mb-1">Telepon: <a href="#!">(0251) 8663689</a></p>
+                <p class="mb-1">Whatsapp: <a href="#!">081261262822</a></p>
+              </div>
+              <div class="col-xl-8 mt-4 mt-xl-0">
+                <div class="row">
+                  <div class="col-lg-6 mt-4 mt-lg-0">
+                    <h5 class="fs-0 text-uppercase border-bottom pb-2 mb-3 text-success">Fasilitas </h5>
+                    <div class="row no-gutters">
+                      <div class="col">
+                        <div class="nav flex-column"><a class="text-600 py-1" href="#!">IGD</a><a class="text-600 py-1" href="#!">Rawat Inap</a><a class="text-600 py-1" href="#!">Poliklinik</a><a class="text-600 py-1" href="#!">Penunjang Medis</a><a class="text-600 py-1" href="#!">Fasilitas Umum</a></div>
+                      </div>
+                      <div class="col">
+                        <div class="nav flex-column"><a class="text-600 py-1" href="#!">Neurosurgery</a><a class="text-600 py-1" href="#!">Orthopaedic Surgery</a><a class="text-600 py-1" href="#!">Obstetrics and Gynecology</a><a class="text-600 py-1" href="#!">Obstetrics and Gynecology</a></div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-3">
+                    <h5 class="fs-0 text-uppercase border-bottom pb-2 mb-3 text-success">Poliklinik</h5>
+                    <div class="nav flex-column"><a class="text-600 py-1" href="#!">Poliklinik Anak</a><a class="text-600 py-1" href="#!">Poliklinik Syaraf</a><a class="text-600 py-1" href="#!">Poliklinik Bedah</a><a class="text-600 py-1" href="#!">Poliklinik Kandungan</a><a class="text-600 py-1" href="#!">Poliklinik Penyakit Dalam</a><a class="text-600 py-1" href="#!">Poliklinik Mata</a><a class="text-600 py-1" href="#!">Poliklinik Kecantikan</a></div>
+                  </div>
+                  <div class="col-lg-3 mt-4 mt-lg-0">
+                    <h5 class="fs-0 text-uppercase border-bottom pb-2 mb-3 text-success">Pusat Informasi </h5>
+                    <div class="nav flex-column"><a class="text-600 py-1" href="#!">Jadwal Dokter</a><a class="text-600 py-1" href="#!">Informasi Paket Layanan</a><a class="text-600 py-1" href="#!">Informasi Alur Pelayanan dan Pengaduan</a><a class="text-600 py-1" href="#!">Kerjasama Perusahaan dan Asuransi</a><a class="text-600 py-1" href="#!">Tnya Jawab (FAQ)</a></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
       <!-- <section> close ============================-->
       <!-- ============================================-->
 
@@ -433,6 +386,7 @@
           </div>
         </div>
       </footer>
+
 
       <!-- belum daftar -->
       <div class="modal fade bd-example-modal-lg" id="blmDaftar" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
@@ -857,7 +811,6 @@
     <!-- ===============================================-->
 
 
-
     <!-- ===============================================-->
     <!--    JavaScripts-->
     <!-- ===============================================-->
@@ -870,10 +823,11 @@
     <script src="assets/lib/sticky-kit/sticky-kit.min.js"></script>
     <script src="assets/lib/loaders.css/loaders.css.js"></script>
     <script src="../../www.google.com/recaptcha/api.js" async defer></script><!-- Global site tag (gtag.js) - Google Analytics-->
-    <script src="assets/lib/flexslider/jquery.flexslider-min.js"></script>
+    <script src="assets/lib/semantic-ui-accordion/accordion.min.js"></script>
+    <script src="assets/lib/semantic-ui-transition/transition.min.js"></script>
     <script src="assets/js/theme.min.js"></script>
   </body>
 
 
-<!-- Mirrored from themewagon.gitlab.io/ by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2024 07:58:57 GMT -->
+<!-- Mirrored from themewagon.gitlab.io/about.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jan 2024 07:59:51 GMT -->
 </html>
