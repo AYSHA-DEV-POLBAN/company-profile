@@ -121,11 +121,11 @@
               </li>
               <li class="nav-item dropdown dropdown-menu-on-hover"><a class="nav-link dropdown-toggle" id="navbarDropdownUtilities" href="#" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Pusat Informasi</a>
                 <div class="dropdown-menu" aria-labelledby="navbarDropdownUtilities">
-                  <a class="dropdown-item" href="../pusatinformasi/jadwal-dokter.html">Jadwal Dokter</a>
-                  <a class="dropdown-item" href="../pusatinformasi/paket-layanan.html">Informasi Paket Layanan</a>
-                  <a class="dropdown-item" href="../pusatinformasi/alur-layanan.html">Informasi Alur Pelayanan dan Pengaduan</a>
-                  <a class="dropdown-item" href="../pusatinformasi/kerjasama-perusahaan-asuransi.html">Kerjasama Perusahaan dan Asuransi</a>
-                  <a class="dropdown-item" href="../pusatinformasi/faq.html">Tanya Jawab (FAQ)</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/jadwal-dokter.html">Jadwal Dokter</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/paket-layanan.html">Informasi Paket Layanan</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/alur-layanan.html">Informasi Alur Pelayanan dan Pengaduan</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/kerjasama-perusahaan-asuransi.html">Kerjasama Perusahaan dan Asuransi</a>
+                  <a class="dropdown-item" href="../medicare/pusatinformasi/faq.html">Tanya Jawab (FAQ)</a>
                 </div>
               </li>
               <li class="nav-item"><a class="nav-link" id="navbarDropdownPlugins" href="#pendaftaranModal" data-toggle="modal">Pendaftaran</a>
@@ -151,7 +151,7 @@
           <div class="row align-items-center">
             <div class="col">
               <div class="overflow-hidden">
-                <h3 class="text-success">Fasilitas Penunjang Medis</h3>
+                <h3 class="text-success" data-zanim-xs='{"from":{"x":-400},"to":{"x":0}}'>Fasilitas Penunjang Medis</h3>
                 <!-- <p class="font-weight-bold mb-0" data-zanim-xs='{"delay":0.1,"from":{"x":-400},"to":{"x":0}}'>Tipe Kamar Rawat Inap</p> -->
               </div>
             </div>
@@ -164,189 +164,126 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-        <div class="row justify-content-center">
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">IGD 24 Jam</h5>
-                        <p class="card-text">Unit pelayanan yang disediakan untuk kebutuhan pasien yang membutuhkan penanganan darurat dengan cepat dan merupakan tujuan pertama pasien yang memiliki kondisi darurat atau yang membutuhkan pelayanan segera.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <div class="row justify-content-center mt-5" style="margin-top: 30px;">
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">IGD 24 Jam</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">IGD 24 Jam</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Unit pelayanan yang disediakan untuk kebutuhan pasien yang membutuhkan penanganan darurat dengan cepat dan merupakan tujuan pertama pasien yang memiliki kondisi darurat atau yang membutuhkan pelayanan segera.</p>
               </div>
             </div>
           </div>
   
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Instalasi Rawat Jalan</h5>
-                        <p class="card-text">Salah satu instalasi di rumah sakit yang memberikan pelayanan rawat jalan kepada pasien, sesuai dengan spesialisasi yang dibutuhkannya, pelayanan tersebut meliputi pemeriksaan, pengobatan, dan tindakan medis sesuai dengan kondisi pasien dan jenis penyakit yang dialaminya.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Instalasi Rawat Jalan</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Instalasi Rawat Jalan</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Salah satu instalasi di rumah sakit yang memberikan pelayanan rawat jalan kepada pasien, sesuai dengan spesialisasi yang dibutuhkannya, pelayanan tersebut meliputi pemeriksaan, pengobatan, dan tindakan medis sesuai dengan kondisi pasien dan jenis penyakit yang dialaminya.</p>
               </div>
             </div>
           </div>
   
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Instalasi Kamar Operasi & CSSD</h5>
-                        <p class="card-text">Ruang khusus memberikan pelayanan berkualitas kepada pasien saat sebelum, selama dan sesaat sesudah dilakukan tindakan pembedahan.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Instalasi Kamar Operasi & CSSD</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Instalasi Kamar Operasi & CSSD</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Ruang khusus memberikan pelayanan berkualitas kepada pasien saat sebelum, selama dan sesaat sesudah dilakukan tindakan pembedahan.</p>
               </div>
             </div>
           </div>
         </div>
   
-  
-        <div class="row justify-content-center">
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Instalasi Rawat Inap</h5>
-                        <p class="card-text">Proses perawatan pasien oleh tenaga kesehatan profesional akibat penyakit tertentu yang meliputi observasi, diagnose, pengobatan, keperawatan dan rehabilitasi.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <!--  -->
+        <div class="row justify-content-center" style="margin-top: 30px;">
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Instalasi Rawat Inap</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Instalasi Rawat Inap</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Proses perawatan pasien oleh tenaga kesehatan profesional akibat penyakit tertentu yang meliputi observasi, diagnose, pengobatan, keperawatan dan rehabilitasi.</p>
               </div>
             </div>
           </div>
   
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Instalasi Radiologi</h5>
-                        <p class="card-text">Radiologi merupakan salah satu cabang ilmu kedokteran yang untuk mengetahui atau mendiagnosis bagian dalam tubuh manusia dengan menggunakan teknologi pencitraan, baik gelombang elektromagnetik maupun gelombang mekanik.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Instalasi Radiologi</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Instalasi Radiologi</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Radiologi merupakan salah satu cabang ilmu kedokteran yang untuk mengetahui atau mendiagnosis bagian dalam tubuh manusia dengan menggunakan teknologi pencitraan, baik gelombang elektromagnetik maupun gelombang mekanik.</p>
               </div>
             </div>
           </div>
   
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Instalasi Ruang Rawat Intensif</h5>
-                        <p class="card-text">Ruangan khusus yang disediakan rumah sakit untuk merawat pasien dengan keadaan yang membutuhkan pengawasan ketat. Untuk membantu memulihkan kondisi pasien, ruang ICU dilengkapi dengan peralatan medis khusus.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Instalasi Ruang Rawat Intensif</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Instalasi Ruang Rawat Intensif</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Ruangan khusus yang disediakan rumah sakit untuk merawat pasien dengan keadaan yang membutuhkan pengawasan ketat. Untuk membantu memulihkan kondisi pasien, ruang ICU dilengkapi dengan peralatan medis khusus.</p>
               </div>
             </div>
           </div>
         </div>
   
-  
-        <div class="row justify-content-center">
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Instalasi Laboratorium</h5>
-                        <p class="card-text">Salah satu instalasi dirumah sakit yang merupakan pelayanan penunjang yang bertujuan membantu diagnose suatu penyakit sehingga dokter dapat menangani suatu penyakit dengan cepat, tepat, akurat.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+        <!--  -->
+        <div class="row justify-content-center" style="margin-top: 30px;">
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Instalasi Laboratorium</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Instalasi Laboratorium</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Salah satu instalasi dirumah sakit yang merupakan pelayanan penunjang yang bertujuan membantu diagnose suatu penyakit sehingga dokter dapat menangani suatu penyakit dengan cepat, tepat, akurat.</p>
               </div>
             </div>
           </div>
   
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Instalasi Farmasi RS</h5>
-                        <p class="card-text">Adalah unit pelaksana fungsional yang menyelenggarakan seluruh kegiatan pelayanan kefarmasian.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Instalasi Farmasi RS</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Instalasi Farmasi RS</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Adalah unit pelaksana fungsional yang menyelenggarakan seluruh kegiatan pelayanan kefarmasian.</p>
               </div>
             </div>
           </div>
   
-          <div class="col-md-3">
-            <div class="tab-content" id="v-pills-tabContent">
-              <div class="tab-pane fade shadow rounded bg-white show active p-5" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                <div class="row">
-                  <div class="col-12">
-                    <div class="row d-flex flex-row align-items-center about-doctors mb-4 pl-lg-0">
-                      <img class="img-thumbnail rounded-circle"
-                        src="https://bootstrapious.com/i/snippets/sn-cards/profile-1_dewapk.jpg" alt=""
-                        style="width: 100px; height: 100px" />
-                      <div class="d-flex flex-column justify-content-center ml-3 outer-detail-doctor">
-                        <h5 class="card-title text-success">Fisioterapi</h5>
-                        <p class="card-text">Profesi di bidang kesehatan yang bertujuan membantu pemulihan pasien dari cedera, sakit, atau disabilitas. Lewat fisioterapi, pasien dibimbing dan dibantu untuk mengembalikan kemampuan fungsional dan gerakannya.</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+          <div class="hoverbox rounded-soft text-center col-md-3 mb-5">
+            <h5 class="card-title text-success">Fisioterapi</h5>
+            <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+            <img class="img-fluid rounded-soft" src="assets/img/sakit.jpg" alt="" />
+            <div class="hoverbox-content bg-success p-5 self-center">
+              <div>
+                <h5 class="card-title text-white">Fisioterapi</h5>
+                <hr class="hr-short border-600 border-white" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                <p class="card-text text-white">Profesi di bidang kesehatan yang bertujuan membantu pemulihan pasien dari cedera, sakit, atau disabilitas. Lewat fisioterapi, pasien dibimbing dan dibantu untuk mengembalikan kemampuan fungsional dan gerakannya.</p>
               </div>
             </div>
           </div>
@@ -862,7 +799,8 @@
         </div>
       </div>
       <!--  -->
-    </main><!-- ===============================================-->
+    </main>
+    <!-- ===============================================-->
     <!--    End of Main Content-->
     <!-- ===============================================-->
 
