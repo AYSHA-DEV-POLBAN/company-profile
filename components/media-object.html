@@ -48,8 +48,8 @@
       <nav class="navbar navbar-expand navbar-light bg-light sticky-top font-weight-semi-bold fs--1 text-base shadow-sm">
         <div class="container">
           <ul class="navbar-nav align-items-center">
-            <li class="nav-item dropdown"><a class="btn btn-light btn-sm dropdown-toggle mr-2" id="languageDropdown" href="#!" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/img/illustrations/united-states.svg" width="20" alt="" /></a>
-              <div class="dropdown-menu" aria-labelledby="languageDropdown"><a class="dropdown-item font-weight-semi-bold text-success d-flex justify-content-between" href="#!">
+            <li class="nav-item dropdown"><!--<a class="btn btn-light btn-sm dropdown-toggle mr-2" id="languageDropdown" href="#!" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="../assets/img/illustrations/united-states.svg" width="20" alt="" /></a> -->
+              <!-- <div class="dropdown-menu" aria-labelledby="languageDropdown"><a class="dropdown-item font-weight-semi-bold text-success d-flex justify-content-between" href="#!">
                   <div class="media align-items-center"><img src="../assets/img/illustrations/united-states.svg" width="20" alt="" />
                     <div class="media-body ml-2">EN</div>
                   </div><span class="fas fa-check" data-fa-transform="down-4 shrink-4"></span>
@@ -61,17 +61,17 @@
                   <div class="media align-items-center"><img src="../assets/img/illustrations/saudi-arabia.svg" width="20" alt="" />
                     <div class="media-body ml-2">AR</div>
                   </div>
-                </a></div>
+                </a></div> -->
             </li>
             <li class="nav-item">
-              <form class="input-iconic">
+              <!-- <form class="input-iconic">
                 <div class="input-icon"><button type="submit"><span class="fas fa-search text-300"></span></button></div><input class="form-control form-control-sm" type="search" placeholder="Search..." />
-              </form>
+              </form> -->
             </li>
           </ul>
           <ul class="navbar-nav align-items-center">
-            <li class="nav-item"><a class="btn btn-outline-danger btn-sm mx-2" href="#!"><span class="d-none d-md-inline">Find a </span>Doctor</a></li>
-            <li class="nav-item"><a class="btn btn-success btn-sm" href="#appointmentModal" data-toggle="modal"><span class="d-none d-md-inline">Request </span>Appointment</a></li>
+            <li class="nav-item"><a class="btn btn-outline-danger btn-sm mx-2" href="#pendaftaranModal"><span class="d-none d-md-inline">Cek Jadwal Dokter</span></a></li>
+            <li class="nav-item"><a class="btn btn-success btn-sm" href="#pendaftaranModal" data-toggle="modal"><span class="d-none d-md-inline">Reservasi Antrian </span></a></li>
           </ul>
         </div>
       </nav>
@@ -393,14 +393,14 @@
             <div class="col-lg-4">
               <div class="media"><img class="img-fluid align-self-center" src="../assets/img/icons/customer-service.png" alt="" width="40" />
                 <div class="media-body ml-3"><a class="text-white fs-1 font-weight-semi-bold mb-0" href="tel:12345678910">+(123) 456 78910</a>
-                  <p class="fs--1 mb-0">Have a question? call us now</p>
+                  <p class="fs--1 mb-0">Memiliki pertanyaan ? Tanyakan lewat telpon</p>
                 </div>
               </div>
             </div>
             <div class="col-lg-4 mt-3 mt-lg-0">
               <div class="media"><img class="img-fluid align-self-center" src="../assets/img/icons/mail-5.png" alt="" width="50" />
                 <div class="media-body ml-3"><a class="text-white fs-1 font-weight-semi-bold mb-0" href="mailto:help@medicare.com">help@medicare.com</a>
-                  <p class="fs--1 mb-0">Need support? Drop us an email</p>
+                  <p class="fs--1 mb-0">Hubungi kami lewat email</p>
                 </div>
               </div>
             </div>
@@ -408,7 +408,7 @@
               <div class="media"><img class="img-fluid align-self-center" src="../assets/img/icons/clock-2.png" alt="" width="50" />
                 <div class="media-body ml-3">
                   <p class="lead font-weight-semi-bold mb-0">Mon – Sat 07:00 – 21:00</p>
-                  <p class="fs--1 mb-0">We are open on</p>
+                  <p class="fs--1 mb-0">Kami buka 24 jam</p>
                 </div>
               </div>
             </div>
@@ -458,18 +458,18 @@
       </section><!-- <section> close ============================-->
       <!-- ============================================-->
 
-      <footer class="bg-dark py-3">
-        <div class="container">
-          <div class="row flex-center">
-            <div class="col text-center text-md-left">
-              <p class="mb-0">Thank you for creating with medicare <br class="d-sm-none" /><span class="d-none d-sm-inline-block">| </span> 2019 &copy; <a class="text-700" href="https://themewagon.com/">ThemeWagon</a></p>
+        <footer class="bg-success py-3">
+            <div class="container">
+                <div class="row flex-center">
+                    <div class="col text-center text-md-left">
+                        <p class="mb-0 text-white"> <b><a class="text-600 text-white" href="#">RUMAH SAKIT ISLAM AYSHA</a> &copy; 2019</b></p>
+                    </div>
+                    <div class="d-none d-md-block col-md-auto">
+                        <p class="mb-0 text-white"><b>v1.0.0</b></p>
+                    </div>
+                </div>
             </div>
-            <div class="d-none d-md-block col-md-auto">
-              <p class="mb-0">v1.0.0</p>
-            </div>
-          </div>
-        </div>
-      </footer>
+        </footer>
       <div class="modal fade bd-example-modal-lg" id="appointmentModal" tabindex="-1" role="dialog" aria-labelledby="modalLabel" aria-hidden="true">
         <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
           <div class="modal-content">
