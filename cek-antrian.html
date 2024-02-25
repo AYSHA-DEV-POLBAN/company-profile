@@ -12,7 +12,7 @@
     <!-- ===============================================-->
     <!--    Document Title-->
     <!-- ===============================================-->
-    <title>Form Pendaftaran</title>
+    <title>Cek Antrian Pendaftaran</title>
 
     <!-- ===============================================-->
     <!--    Favicons-->
@@ -22,7 +22,7 @@
     <!-- <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicons/favicon-16x16.png"> -->
     <link rel="shortcut icon" type="image/x-icon" href="assets/img/icons/favicon.ico">
     <link rel="manifest" href="assets/img/icons/manifest.json">
-    <!-- <meta name="msapplication-TileImage" content="assets/img/favicons/mstile-150x150.png"> -->
+    <link rel="stylesheet" href="assets/lib/font-awesome-4.7.0/css/font-awesome.min.css">
     <meta name="theme-color" content="#ffffff">
 
 
@@ -32,6 +32,7 @@
     <link href="https://fonts.googleapis.com/css?family=Oxygen%7cRaleway:100,200,300,400,500,600,700,800,900" rel="stylesheet">
     <!-- <link href="assets/lib/loaders.css/loaders.min.css" rel="stylesheet"> -->
     <link href="assets/css/theme.css" rel="stylesheet">
+    <link href="assets/css/stylebox.css" rel="stylesheet">
   </head>
 
   <body>
@@ -49,20 +50,7 @@
       <nav class="navbar navbar-expand navbar-light bg-light sticky-top font-weight-semi-bold fs--1 text-base shadow-sm">
         <div class="container">
           <ul class="navbar-nav align-items-center">
-            <li class="nav-item dropdown"><!--<a class="btn btn-light btn-sm dropdown-toggle mr-2" id="languageDropdown" href="#!" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img src="assets/img/illustrations/united-states.svg" width="20" alt="" /></a> -->
-              <!-- <div class="dropdown-menu" aria-labelledby="languageDropdown"><a class="dropdown-item font-weight-semi-bold text-success d-flex justify-content-between" href="#!">
-                  <div class="media align-items-center"><img src="assets/img/illustrations/united-states.svg" width="20" alt="" />
-                    <div class="media-body ml-2">EN</div>
-                  </div><span class="fas fa-check" data-fa-transform="down-4 shrink-4"></span>
-                </a><a class="dropdown-item font-weight-semi-bold text-success" href="#!">
-                  <div class="media align-items-center"><img src="assets/img/illustrations/germany.svg" width="20" alt="" />
-                    <div class="media-body ml-2">DE</div>
-                  </div>
-                </a><a class="dropdown-item font-weight-semi-bold text-success" href="#!">
-                  <div class="media align-items-center"><img src="assets/img/illustrations/saudi-arabia.svg" width="20" alt="" />
-                    <div class="media-body ml-2">AR</div>
-                  </div>
-                </a></div> -->
+            <li class="nav-item dropdown">
             </li>
             <li class="nav-item">
               <!-- <form class="input-iconic">
@@ -148,122 +136,139 @@
 
       <!-- ============================================-->
       <!-- <section> begin ============================-->
-        <section>
+        <section class="pt-5">
+          <div class="container">
             <div class="mb-4">
-                <div class="text-center mb-5">
-    
-                  <div class="overflow-hidden">
-                    <h3 class="text-uppercase text-success" data-zanim-xs='{"delay":0.3}'>Form Pendaftaran </h3>
-                  </div>
-                  <div class="overflow-hidden">
-                    <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
-                  </div>
+              <div class="text-center mb-5">
+                <div class="overflow-hidden">
+                  <h3 class="text-uppercase text-success" data-zanim-xs='{"delay":0.3}'>Antrian Pendaftaran </h3>
                 </div>
-            </div>
-            <div class="container">
+                <div class="overflow-hidden">
+                  <hr class="hr-short border-600" data-zanim-xs='{"from":{"width":0},"to":{"width":"4.2rem"},"delay":0.4,"duration":1.5}' />
+                </div>
+              </div>
+          </div>
+            <div class="card">
               <div class="card-body">
-                <form class="zform" method="post">
-                  <div class="zform-feedback"></div>
-                  <input class="form-control" type="hidden" name="to" value="username@domain.extension" />
-                  <div class="form-row">
-                      <div class="form-group col-md-6">
-                          <label class="font-weight-bold" for="inputName">Nomor Rekam Medis</label>
-                          <input class="form-control font-italic" id="inputName" type="text" placeholder="Masukkan nomor rekam medis anda" name="rm" required="required" value="12031" disabled/>
-                      </div>
-                      <div class="form-group col-md-6">
-                          <label class="font-weight-bold" for="inputRMlama">Nomor Rekam Medis Lama</label>
-                          <input class="form-control font-italic" id="inputRMlama" type="text" placeholder="Masukkan nomor rekam medis lamaanda" name="rmlama" required="required" value="000123" disabled/>
-                      </div>
-                      <div class="form-group col-md-6">
-                          <label class="font-weight-bold" for="inputName">Nama</label>
-                          <input class="form-control font-italic" id="inputName" type="text" placeholder="Masukkan nama lengkap anda" name="name" required="required" value="Ujang" disabled/>
-                      </div>
-                      <div class="form-group col-md-6">
-                          <label class="font-weight-bold" for="inputAlamat">Alamat</label>
-                          <input class="form-control font-italic" id="inputAlamat" type="text" placeholder="Masukkan alamat anda" name="alamat" required="required" value="Jl. Dago" disabled/>
-                      </div>
-                      <div class="form-group col-md-12">
-                          <label class="font-weight-bold">Tempat & Tanggal Lahir</label>
-                          <div class="form-row">
-                            <div class="col-6">
-                              <input type="text" class="form-control" value="Kota Bogor" disabled>
-                            </div>
-                              <div class="col-6">
-                                  <input type="date" class="custom-select yearpicker form-control" value="12/12/2000" disabled>
+                <div class="container">
+                  <div class="row">
+
+                      <div class="col-lg-4">
+                          <div class="card card-margin">
+                              <div class="card-body">
+                                <div>
+                                  <table class="table table-borderless">
+                                    <tr>
+                                      <td>
+                                        <div class="widget-49">
+                                          <div class="widget-49-title-wrapper">
+                                              <div class="widget-49-date-primary">
+                                                  <span class="widget-49-date-day"><div class="fa fa-eye" aria-hidden="true"></div></span>
+                                              </div>
+                                              <div class="widget-49-meeting-info">
+                                                  <span class="widget-49-pro-title">Poliklinik Mata</span>
+                                                  <span class="widget-49-meeting-time badge badge-pill badge-success text-white">Antrian Sudah Dimulai</span>
+                                              </div>
+                                          </div>
+                                        </div>
+                                      </td>
+                                      <td>
+                                        <div class="widget-49">
+                                          <div class="widget-49-title-wrapper">
+                                          <div class="widget-49-meeting-info">
+                                              <span class="widget-49-pro-title">No. Antrian</span>
+                                              <div class="widget-49-meeting-time text-dark text-center" style="font-size: 32px;">M21</div>
+                                          </div>
+                                          </div>
+                                        </div>
+                                      </td>
+                                    </tr>
+                                  </table>
+                                </div>
+
                               </div>
                           </div>
                       </div>
-                  </div>    
-                </form>
+                      
+                      <div class="col-lg-4">
+                        <div class="card card-margin">
+                            <div class="card-body">
+                              <div>
+                                <table class="table table-borderless">
+                                  <tr>
+                                    <td>
+                                      <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                            <div class="widget-49-date-primary">
+                                                <span class="widget-49-date-day"><div class="fa fa-eye" aria-hidden="true"></div></span>
+                                            </div>
+                                            <div class="widget-49-meeting-info">
+                                                <span class="widget-49-pro-title">Poliklinik Mata</span>
+                                                <span class="widget-49-meeting-time badge badge-pill badge-danger text-white">Antrian Belum Dimulai</span>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                        <div class="widget-49-meeting-info">
+                                            <span class="widget-49-pro-title">No. Antrian</span>
+                                            <div class="widget-49-meeting-time text-dark text-center" style="font-size: 32px;">M01</div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
+
+                            </div>
+                        </div>
+                      </div>
+
+                      <div class="col-lg-4">
+                        <div class="card card-margin">
+                            <div class="card-body">
+                              <div>
+                                <table class="table table-borderless">
+                                  <tr>
+                                    <td>
+                                      <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                            <div class="widget-49-date-primary">
+                                                <span class="widget-49-date-day"><div class="fa fa-eye" aria-hidden="true"></div></span>
+                                            </div>
+                                            <div class="widget-49-meeting-info">
+                                                <span class="widget-49-pro-title">Poliklinik Mata</span>
+                                                <span class="widget-49-meeting-time badge badge-pill badge-success text-white">Antrian Sudah Dimulai</span>
+                                            </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                    <td>
+                                      <div class="widget-49">
+                                        <div class="widget-49-title-wrapper">
+                                        <div class="widget-49-meeting-info">
+                                            <span class="widget-49-pro-title">No. Antrian</span>
+                                            <div class="widget-49-meeting-time text-dark text-center" style="font-size: 32px;">M21</div>
+                                        </div>
+                                        </div>
+                                      </div>
+                                    </td>
+                                  </tr>
+                                </table>
+                              </div>
+
+                            </div>
+                        </div>
+                      </div>
+
+                  </div>
+                  </div>
               </div>
-
-            <hr style="border-top:3px solid rgba(0,0,0,.1)">
             </div>
-           
-            <div class="container">
-              <div class="p-4">
-                <form class="zform" method="post">
-                  <div class="form-row">
-                    <div class="form-group col-md-6">
-                      <div><label class="font-weight-bold">Tipe Pasien</label></div>
-                      <div class="custom-control custom-radio custom-control-inline"><input class="custom-control-input" id="customRadioMale" type="radio" name="gender" required="required" /><label class="custom-control-label" for="customRadioMale">Umum</label></div>
-                      <div class="custom-control custom-radio custom-control-inline"><input class="custom-control-input" id="customRadioFemale" type="radio" name="gender" required="required" /><label class="custom-control-label" for="customRadioFemale">Perusahaan</label></div>
-                    </div>
-
-                    <div class="form-group col-md-6"><label class="font-weight-bold" for="inputSpecialty">Penjamin</label>
-                      <select class="custom-select" id="inputSpecialty" name="speciality">
-                        <option selected="">Penjamin</option>
-                        <option>Penjamin 1</option>
-                        <option>Penjamin 2</option>
-                      </select>
-                    </div>
-
-                  </div>
-
-                  <div class="form-row">
-                    <div class="form-group col-md-6">
-                      <label class="font-weight-bold" for="inputRM">Tgl Kedatangan</label>
-                      <input class="form-control datepicker" id="inputRM" type="date" placeholder="" name="RM" />
-                    </div>
-                    <div class="form-group col-md-6"><label class="font-weight-bold" for="inputTitle">Pilih Poliklinik</label>
-                      <select class="custom-select" id="inputSpecialty" name="speciality">
-                        <option selected="">Poli 1</option>
-                        <option>Poli 1</option>
-                        <option>Poli 2</option>
-                      </select>
-                    </div>
-                  </div>
-
-                  <div class="form-row">
-                    <div class="form-group col-md-4"><label class="font-weight-bold" for="inputTitle">Pilih Poliklinik</label>
-                      <select class="custom-select" id="inputSpecialty" name="speciality">
-                        <option selected="">Poli 1</option>
-                        <option>Poli 1</option>
-                        <option>Poli 2</option>
-                      </select>
-                    </div>
-                    <div class="form-group col-md-4"><label class="font-weight-bold" for="inputTitle">Pilih Dokter</label>
-                      <select class="custom-select" id="inputSpecialty" name="speciality">
-                        <option selected="">Dokter 1</option>
-                        <option>Dokter 1</option>
-                        <option>Dokter 2</option>
-                      </select>
-                    </div>
-                    <div class="form-group col-md-4"><label class="font-weight-bold" for="inputTitle">Jam Praktek</label><input class="form-control datepicker" id="inputTitle" type="date" placeholder="" name="title" required="required" disabled value="21/03/2024"/></div>
-                  </div>
-                </form>
-
-                <div class="modal-footer">
-                  <button class="btn btn-danger" type="button" aria-label="Close">Cancel</button>
-                  <a style="text-decoration: none;" href="pendaftaran_success.html"><input class="btn btn-success ml-2 text-white" type="submit" name="submit" value="Simpan" /></a>
-                </div>
-
-
-
-              </div>
-            </div>
-
-
+          </div>
         </section>
 
       <!-- <section> close ============================-->
